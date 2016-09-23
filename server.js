@@ -45,7 +45,7 @@ function createtemplate (data) {
                   </div>
                       <div>
                                <h3>${heading}</h3>
-                               $(date)
+                               ${date}
                                
                            </div>
                              <div class="container">
