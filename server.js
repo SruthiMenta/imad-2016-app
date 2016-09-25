@@ -5,8 +5,8 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-
-var articleone={
+var articles={
+  articleone:{
     title:'article-one',
     heading: 'article-one | sruthi menta',
     date: 'sep 25, 2016',
@@ -22,7 +22,37 @@ var articleone={
                    </p>  
                `    
     
+
+},
+articletwo:{ title:'article-one',
+    heading: 'article-two | sruthi menta',
+    date: 'sep 25, 2016',
+    content:  ` <p>
+                        hello....how are you doing today?? this is article-two 
+               <p>
+                        hello....how are you doing today?? this is article-two hello....how are you doing today?? this is article-two hello....how are you doing today?? this is article-two hello....how are you doing today?? this is article-two
+                   </p>
+              <p>
+                     hello....how are you doing today?? this is article-two hello....how are you doing today?? this is article-two hello....how are you doing today?? this is article-two hello....how are you doing today?? this is article-two
+                   </p>  `
+                   
+                   },
+articlethree:{ title:'article-one',
+    heading: 'article-two | sruthi menta',
+    date: 'sep 25, 2016',
+    content:  ` <p>
+                        hello....how are you doing today?? this is article-three 
+                        </p>
+               <p>
+                        hello....how are you doing today?? this is article-three hello....how are you doing today?? this is article-three hello....how are you doing today?? this is article-three hello....how are you doing today?? this is article-three
+                   </p>
+              <p>
+                   hello....how are you doing today?? this is article-three hello....how are you doing today?? this is article-three hello....how are you doing today?? this is article-three hello....how are you doing today?? this is article-three
+                   </p>  `
+}
 };
+
+
 function createtemplate (data) {
     var title=data.title;
     var heading=data.heading;
