@@ -1,4 +1,5 @@
 console.log('Loaded!');
+alert('hi');
 var img=document.getELementById('madi');
 var marginleft=0;
 function moveright(){
