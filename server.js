@@ -38,7 +38,7 @@ var article={
                    
                    }, 
   'article-three':{ title:'article-one',
-    heading: 'article-two | sruthi menta',
+    heading: 'article-three | sruthi menta',
     date: 'sep 25, 2016',
     content:  ` <p>
                         hello....how are you doing today?? this is article-three 
